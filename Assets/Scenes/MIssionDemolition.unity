@@ -1153,12 +1153,16 @@ MonoBehaviour:
   uitLevel: {fileID: 0}
   uitShots: {fileID: 0}
   uitButton: {fileID: 0}
-  castlePos: {x: 0, y: 0, z: 0}
-  castles: []
-  level: 1
-  levelMax: 4
+  castlePos: {x: 50, y: -9.5, z: 0}
+  castles:
+  - {fileID: 6558328079987044581, guid: bb10d5c0593b1c44a93681f4fb056b62, type: 3}
+  - {fileID: 6558328079987044581, guid: 62299a28ac0911e488bbb0fc6e65cf01, type: 3}
+  - {fileID: 6558328079987044581, guid: f42e7060605598d4b98d280a39c15fd6, type: 3}
+  - {fileID: 6558328079987044581, guid: 2087818c7bb65ca4cb113b4e7babc464, type: 3}
+  level: 0
+  levelMax: 0
   shotsTaken: 0
-  castle: {fileID: 6558328079987044581, guid: bb10d5c0593b1c44a93681f4fb056b62, type: 3}
+  castle: {fileID: 0}
   mode: 0
   showing: "Show\tSlingshot"
 --- !u!1 &1016292217

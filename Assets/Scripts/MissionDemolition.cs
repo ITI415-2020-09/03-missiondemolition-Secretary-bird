@@ -59,7 +59,7 @@ public class MissionDemolition : MonoBehaviour
     void UpdateGUI()
     {
         uitLevel.text = "Level:	" + (level + 1) + "of	" + levelMax;
-        uitShots.text = "Shots	Taken:	" + shotsTaken;
+        uitShots.text = "Shots Taken:	" + shotsTaken;
     }
     void Update()
     {
@@ -67,7 +67,7 @@ public class MissionDemolition : MonoBehaviour
         if ((mode == GameMode.playing) && Goal.goalMet)
         {
             mode = GameMode.levelEnd;
-            SwitchView("Show	Both");
+            SwitchView("Show Both");
             Invoke("NextLevel", 2f);
         }
     }
